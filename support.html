@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Підтримка — Притулок</title>
+<style>
+  :root{
+    --bg:#FFF8F2;
+    --card:#FFFFFF;
+    --text:#3A2E2A;
+    --muted:#7A6A63;
+    --accent:#E8895B;
+    --accent-soft:#FCE4D6;
+    --border:#F0E0D4;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.65;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:40px 20px 80px;}
+  header{
+    background:var(--accent-soft);
+    border-radius:20px;
+    padding:32px 28px;
+    margin-bottom:32px;
+    text-align:center;
+  }
+  header .icon{font-size:40px;margin-bottom:8px;}
+  header h1{margin:0 0 8px;font-size:26px;color:var(--text);}
+  header p{margin:0;color:var(--muted);font-size:14px;}
+  h2{
+    font-size:18px;
+    margin-top:32px;
+    margin-bottom:10px;
+    color:var(--text);
+  }
+  p, li{color:var(--text);font-size:15.5px;}
+  .card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:20px 22px;
+    margin:14px 0;
+  }
+  .contact-card{
+    text-align:center;
+    padding:28px 22px;
+  }
+  .contact-card a{
+    display:inline-block;
+    margin-top:10px;
+    background:var(--accent);
+    color:#fff;
+    text-decoration:none;
+    padding:12px 28px;
+    border-radius:999px;
+    font-weight:600;
+    font-size:15px;
+  }
+  .contact-card a:hover{opacity:0.9;}
+  details{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:16px 20px;
+    margin:10px 0;
+  }
+  summary{
+    font-weight:600;
+    cursor:pointer;
+    font-size:15.5px;
+  }
+  details p{margin-top:10px;margin-bottom:0;color:var(--muted);}
+  footer{margin-top:50px;font-size:13px;color:var(--muted);text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="icon">🐾</div>
+    <h1>Підтримка застосунку «Притулок»</h1>
+    <p>Ми тут, щоб допомогти</p>
+  </header>
+
+  <div class="card contact-card">
+    <p>Маєте питання, пропозицію чи зіткнулись із проблемою в застосунку?<br>Напишіть нам — відповідаємо особисто.</p>
+    <a href="mailto:prytulok.app@gmail.com">prytulok.app@gmail.com</a>
+  </div>
+
+  <h2>Часті питання</h2>
+
+  <details>
+    <summary>Як подати заявку на усиновлення тваринки?</summary>
+    <p>Відкрийте картку тваринки, яка вас зацікавила, і натисніть кнопку «Подати заявку на усиновлення». Заповніть коротку форму — і власник анкети отримає вашу заявку.</p>
+  </details>
+
+  <details>
+    <summary>Як розмістити оголошення про передачу тваринки?</summary>
+    <p>У розділі «Профіль» натисніть «Додати оголошення». Заповніть анкету (фото, опис, причина передачі) — вона з'явиться в каталозі після короткої перевірки модератором.</p>
+  </details>
+
+  <details>
+    <summary>Скільки триває модерація оголошення?</summary>
+    <p>Зазвичай до 12 годин. Ми перевіряємо кожну анкету вручну, щоб каталог лишався чесним і безпечним.</p>
+  </details>
+
+  <details>
+    <summary>Як видалити свій акаунт?</summary>
+    <p>У розділі «Профіль» → «Налаштування» знайдіть пункт «Видалити акаунт». Дія незворотна — усі ваші дані буде видалено.</p>
+  </details>
+
+  <details>
+    <summary>Я знайшла помилку в застосунку. Куди повідомити?</summary>
+    <p>Напишіть нам на <a href="mailto:prytulok.app@gmail.com">prytulok.app@gmail.com</a> з описом проблеми — бажано зі скріншотом, якщо це можливо. Ми відповімо якнайшвидше.</p>
+  </details>
+
+  <h2>Корисні посилання</h2>
+  <div class="card">
+    <p>
+      <a href="https://yanabnk.github.io/prytulok-legal/privacy-policy.html">Політика конфіденційності</a><br>
+      <a href="https://yanabnk.github.io/prytulok-legal/terms-of-service.html">Умови використання</a>
+    </p>
+  </div>
+
+  <footer>© 2026 Притулок. Усі права захищено.</footer>
+</div>
+</body>
+</html>
